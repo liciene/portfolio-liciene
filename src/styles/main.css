@@ -1,0 +1,63 @@
+body {
+    color: #ffffff;
+    justify-content: center;
+    background: linear-gradient(16deg, #222831 0%, #31363F 35%, rgba(0,12,71,1) 100%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+#capa {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    background-color: rgb(242, 242, 242, 0.25);
+    padding: 3%;
+    margin: -520px 150px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.presentation {
+    display: flex;
+    background-color: rgb(242, 242, 242, 0.5);
+    padding: 4px 0px 0px 4px;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+
+}
+
+h2 {
+    margin: 0px -100px 0px 0px;
+}
+
+#liciene {
+    margin: 0px 0px -7px -35px;
+    width: 118%;
+    border-radius: 5px;
+}
+
+#description {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    color: #ffffff;
+    background-color: #000C47;
+    border: none;
+    cursor: pointer;
+}
